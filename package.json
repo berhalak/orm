@@ -1,8 +1,8 @@
 {
-	"name": "@berhalak/ts-template",
+	"name": "@berhalak/orm",
 	"private": false,
 	"version": "0.0.1",
-	"description": "Typescript template",
+	"description": "Typescript orm",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
@@ -13,14 +13,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/berhalak/ts-template.git"
+		"url": "git+https://github.com/berhalak/orm.git"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "berhalak",
+	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/berhalak/ts-template/issues"
+		"url": "https://github.com/berhalak/orm/issues"
 	},
-	"homepage": "https://github.com/berhalak/ts-template#readme",
+	"homepage": "https://github.com/berhalak/orm#readme",
 	"devDependencies": {
 		"@types/jest": "^25.1.0",
 		"@types/node": "^13.5.0",
@@ -28,5 +28,9 @@
 		"ts-jest": "^25.0.0",
 		"ts-node": "^8.6.2",
 		"typescript": "^3.7.5"
+	},
+	"dependencies": {
+		"@berhalak/js": "^0.0.7",
+		"packer-js": "^1.0.11"
 	}
 }
